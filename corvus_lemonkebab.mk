@@ -31,6 +31,10 @@ RAVEN_LAIR := Official
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# FOD
+FOD_ANIMATIONS := true
+HAS_FOD := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := corvus_lemonkebab
 PRODUCT_DEVICE := lemonkebab
