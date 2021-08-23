@@ -27,6 +27,7 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Corvus Maintainer
 CORVUS_MAINTAINER := TheTablaster
 RAVEN_LAIR := Official
+USE_PROTON := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
