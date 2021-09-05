@@ -1,0 +1,19 @@
+[
+  {
+    "repository"  : "Blaster4385/IllusionX_sm8250",
+    "target_path" : "kernel/oneplus/sm8250",
+    "branch"      : "custom",
+    "remote"      : "github",
+    "clone-depth" : "1"
+  },
+  {
+    "repository"  : "vendor_oneplus_lemonkebab",
+    "target_path" : "vendor/oneplus/lemonkebab",
+    "branch"      : "11"
+  },
+  {
+    "repository"  : "PixelBlaster-OS/certs",
+    "target_path" : "certs",
+    "branch"      : "eleven"
+  }  
+]
