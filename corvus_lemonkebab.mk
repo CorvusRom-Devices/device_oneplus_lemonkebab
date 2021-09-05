@@ -21,14 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonkebab device
 $(call inherit-product, device/oneplus/lemonkebab/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+
+# Corvus Maintainer
+CORVUS_MAINTAINER := TheTablaster
+RAVEN_LAIR := Official
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_lemonkebab
+PRODUCT_NAME := corvus_lemonkebab
 PRODUCT_DEVICE := lemonkebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
